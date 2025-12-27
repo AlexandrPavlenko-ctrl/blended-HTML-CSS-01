@@ -3,71 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:wght@705&family=Roboto:wght@100..900&display=swap"
+        rel="stylesheet">
     <title>Yacht Club</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <section>
-            <a href="index.html"> yachtjet</a>
-            <nav>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">YACHTS</a></li>
-                <li><a href="#">REVIEWS</a></li>
+            <div class="container">
+            <div class="header-container">
+            <a class="index-logo"href="index.html"> yachtjet</a>
+            <nav class="header-nav">
+                <li class="nav-list"><a class="nav-link" href="#About">ABOUT</a></li>
+                <li class="nav-list"><a class="nav-link" href="#Yachts">YACHTS</a></li>
+                <li class="nav-list"><a class="nav-link" href="#Review">REVIEWS</a></li>
             </nav>
-              <nav>
+              <nav class="header-logo-nav">
                 <li>
-                    <a href="https://www.instagram.com/">
-                <img               
-                src="./images/instalogo.jpg" alt="instagram logo" width="24px" height="24px">
+                    <a class="logo-hover" href="https://www.instagram.com/">
+                <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M13.8846 0H5.11538C3.75915 0.00145078 2.45887 0.540858 1.49986 1.49986C0.540858 2.45887 0.00145078 3.75915 0 5.11538V13.8846C0.00145078 15.2409 0.540858 16.5411 1.49986 17.5001C2.45887 18.4591 3.75915 18.9985 5.11538 19H13.8846C15.2409 18.9985 16.5411 18.4591 17.5001 17.5001C18.4591 16.5411 18.9985 15.2409 19 13.8846V5.11538C18.9985 3.75915 18.4591 2.45887 17.5001 1.49986C16.5411 0.540858 15.2409 0.00145078 13.8846 0ZM9.5 13.8846C8.6328 13.8846 7.78508 13.6275 7.06404 13.1457C6.34299 12.6639 5.78101 11.9791 5.44914 11.1779C5.11728 10.3767 5.03045 9.49514 5.19963 8.6446C5.36882 7.79407 5.78641 7.01281 6.39961 6.39961C7.01281 5.78641 7.79407 5.36882 8.6446 5.19963C9.49514 5.03045 10.3767 5.11728 11.1779 5.44914C11.9791 5.78101 12.6639 6.34299 13.1457 7.06404C13.6275 7.78508 13.8846 8.6328 13.8846 9.5C13.8834 10.6625 13.4211 11.777 12.5991 12.5991C11.777 13.4211 10.6625 13.8834 9.5 13.8846ZM14.9808 5.11538C14.764 5.11538 14.552 5.0511 14.3718 4.93065C14.1915 4.8102 14.051 4.63901 13.9681 4.43871C13.8851 4.23841 13.8634 4.01801 13.9057 3.80538C13.948 3.59275 14.0524 3.39743 14.2057 3.24413C14.359 3.09083 14.5543 2.98643 14.7669 2.94414C14.9796 2.90184 15.2 2.92355 15.4002 3.00652C15.6005 3.08948 15.7717 3.22998 15.8922 3.41024C16.0126 3.5905 16.0769 3.80243 16.0769 4.01923C16.0769 4.30995 15.9614 4.58876 15.7559 4.79433C15.5503 4.9999 15.2715 5.11538 14.9808 5.11538ZM12.4231 9.5C12.4231 10.0781 12.2516 10.6433 11.9304 11.124C11.6093 11.6047 11.1527 11.9793 10.6186 12.2006C10.0845 12.4218 9.49676 12.4797 8.92974 12.3669C8.36271 12.2541 7.84187 11.9757 7.43307 11.5669C7.02427 11.1581 6.74588 10.6373 6.63309 10.0703C6.5203 9.50324 6.57819 8.91551 6.79943 8.38139C7.02067 7.84726 7.39533 7.39074 7.87603 7.06955C8.35672 6.74836 8.92187 6.57692 9.5 6.57692C10.2752 6.57692 11.0187 6.88489 11.5669 7.43307C12.1151 7.98126 12.4231 8.72475 12.4231 9.5Z"
+                        fill="currentColor" />
+                </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.youtube.com/">
-                <img
-                src="./images/youtubelogo.jpg" alt="youtube logo" width="24px" height="24px">
+                    <a class="logo-hover" href="https://www.youtube.com/">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M11.6698 9.82604L9.33021 8.73438C9.12604 8.63958 8.95833 8.74583 8.95833 8.97187V11.0281C8.95833 11.2542 9.12604 11.3604 9.33021 11.2656L11.6688 10.174C11.874 10.0781 11.874 9.92188 11.6698 9.82604ZM10 0C4.47708 0 0 4.47708 0 10C0 15.5229 4.47708 20 10 20C15.5229 20 20 15.5229 20 10C20 4.47708 15.5229 0 10 0ZM10 14.0625C4.88125 14.0625 4.79167 13.601 4.79167 10C4.79167 6.39896 4.88125 5.9375 10 5.9375C15.1187 5.9375 15.2083 6.39896 15.2083 10C15.2083 13.601 15.1187 14.0625 10 14.0625Z"
+                        fill="currentColor" />
+                </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/">
-                <img
-                src="./images/facebooklogo.jpg" alt="facebook logo" width="24px" height="24px">
+                    <a class="logo-hover" href="https://www.facebook.com/">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20 10.0251C20 4.49123 15.52 0 10 0C4.48 0 0 4.49123 0 10.0251C0 14.8772 3.44 18.9173 8 19.8496V13.0326H6V10.0251H8V7.5188C8 5.58396 9.57 4.01003 11.5 4.01003H14V7.01754H12C11.45 7.01754 11 7.46867 11 8.02005V10.0251H14V13.0326H11V20C16.05 19.4987 20 15.2281 20 10.0251Z"
+                        fill="currentColor" />
+                </svg>
                     </a>
                 </li>
             </nav>
+            </div>
+            </div>
         </section>
         <section>
-            <h1>
+            <div class="container">
+                <div class="hero-container">
+            <h1 class="hero-title">
                 Explore the High Seas with Our Luxury Yacht Rentals
             </h1>
-            <p>
+            <p class="hero-text">
             Experience the freedom and luxury of yachting on the open seas. Choose from our top-of-the-line yachts and embark on an
             unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.
             </p>
-            <button type="button">Yacht Rental</button>
+            <button type="button" class="hero-button">Yacht Rental</button>
+                </div>
+            </div>
         </section>
         </header>
         <main>
         <section>
-            <h2>
+            <div class="container">
+                <div class="container-about">
+            <h2 class="about-title" id="About">
                 YachtJet fleet is here to take you on the ultimate adventure
             </h2>
-           <ul>
-            <li>
+                <div class="about-text-container">
+           <p class="about-main-text">
                 From spacious decks to state-of-the-art technology, our yachts are designed to provide the perfect blend of luxury and
                 functionality.
-            </li>
-            <li>
+            </p>
+            <p class="about-secondary-text">
                 Take a look at our selection below and choose the yacht that matches your needs and preferences.No matter which yacht
                 you choose, our experienced crew will ensure that your journey is smooth and enjoyable. Book now and get ready for an
                 unforgettable adventure on the high seas.
-            </li>
-            <li>
-                <img 
+            </p>
+                </div>
+            </div>
+                <img class="about-image"
                 src="./images/yachthero.jpg" alt="yacht in night sea">
-            </li>
+                
+            </div>
         </section>
-        <h2>Choose your dream yacht and sail away into the sunset</h2>
+        <section>
+            <div class="container">
+        <h2 id="Yachts">Choose your dream yacht and sail away into the sunset</h2>
         <ul>
             <li>
                 <img src="./images/yachtlist1.jpg" alt="brown and white yacht">
@@ -151,37 +179,118 @@
             </table>
             </li>
         </ul>
+        <p>Yacht rental</p>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+            <img 
+            src="./images/yschttable.jpg" alt="yacht table">
+                <ul>
+                    <li>
+                        <h3>01</h3>
+                        <p>Swimming and water sports: try your hand at water skiing</p>
+                    </li><li>
+                        <h3>02</h3>
+                        <p>Fishing: try to catch your own dinner</p>
+                    </li><li>
+                        <h3>03</h3>
+                        <p>Sightseeing tours: take a shore or island tour, enjoy the views and sunsets from the water</p>
+                    </li><li>
+                        <h3>04</h3>
+                        <p>Rest and relaxation: read a book or listen to music while enjoying the outdoor atmosphere.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+            <h2 id="Rent">Rent a yacht now</h2>
+            <img src="./images/yachtmail.jpg" alt="yacht in dark lake">
+            <input type="text" id="full-name" name="full-name" placeholder="Full Name">
+            
+            <input type="email" id="email" name="email" placeholder="Email">
+            
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Phone number">
+            
+            <textarea id="comment" name="comment" rows="4" placeholder="Comment"></textarea>
+            <button type="button"> Send</button>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+            <h2 id="Review">YachtJet take pride in providing the best possible service and experience to our customers</h2>
+            <p>Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out
+            what they have to say about their journey with us.</p>
+            <ul>
+                <li>
+                    <img src="./images/servicehuman1.jpg" alt="man in shirt">
+                    <h3>John Wax</h3>
+                    <p>I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. The yacht was
+                    spacious, comfortable, and luxurious, and the crew took care of everything.</p>
+                </li>
+                <li>
+                    <img src="./images/servicehuman2.jpg" alt="woman in white dress">
+                    <h3>Victoria Romashenko</h3>
+                    <p>The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was beautifully designed, with all
+                    the amenities we needed, and the crew was attentive and friendly.</p>
+                </li>
+                <li>
+                    <img src="./images/servicehuman3.jpg" alt="rude man in t-shirt">
+                    <h3>Ihor Trachuk</h3>
+                    <p>The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and elegant, and the outdoor
+                    areas were perfect for relaxing and entertaining. Worth every penny!</p>
+                </li>
+            </ul>
+            </div>
+        </section>
         </main>
     <footer class="footer-zone">
         <section>
+            <div class="container">
         <a href="index.html"> yachtjet</a>
         <nav>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">YACHTS</a></li>
-            <li><a href="#">REVIEWS</a></li>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#Yachts">YACHTS</a></li>
+            <li><a href="#Review">REVIEWS</a></li>
         </nav>
         <nav>
             <li>
                 <a class="invisible" href="https://www.instagram.com/">
-                    <img src="./images/instalogofooter.jpg" alt="instagram logo" width="24px" height="24px">
+                    <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.8846 0H5.11538C3.75915 0.00145078 2.45887 0.540858 1.49986 1.49986C0.540858 2.45887 0.00145078 3.75915 0 5.11538V13.8846C0.00145078 15.2409 0.540858 16.5411 1.49986 17.5001C2.45887 18.4591 3.75915 18.9985 5.11538 19H13.8846C15.2409 18.9985 16.5411 18.4591 17.5001 17.5001C18.4591 16.5411 18.9985 15.2409 19 13.8846V5.11538C18.9985 3.75915 18.4591 2.45887 17.5001 1.49986C16.5411 0.540858 15.2409 0.00145078 13.8846 0ZM9.5 13.8846C8.6328 13.8846 7.78508 13.6275 7.06404 13.1457C6.34299 12.6639 5.78101 11.9791 5.44914 11.1779C5.11728 10.3767 5.03045 9.49514 5.19963 8.6446C5.36882 7.79407 5.78641 7.01281 6.39961 6.39961C7.01281 5.78641 7.79407 5.36882 8.6446 5.19963C9.49514 5.03045 10.3767 5.11728 11.1779 5.44914C11.9791 5.78101 12.6639 6.34299 13.1457 7.06404C13.6275 7.78508 13.8846 8.6328 13.8846 9.5C13.8834 10.6625 13.4211 11.777 12.5991 12.5991C11.777 13.4211 10.6625 13.8834 9.5 13.8846ZM14.9808 5.11538C14.764 5.11538 14.552 5.0511 14.3718 4.93065C14.1915 4.8102 14.051 4.63901 13.9681 4.43871C13.8851 4.23841 13.8634 4.01801 13.9057 3.80538C13.948 3.59275 14.0524 3.39743 14.2057 3.24413C14.359 3.09083 14.5543 2.98643 14.7669 2.94414C14.9796 2.90184 15.2 2.92355 15.4002 3.00652C15.6005 3.08948 15.7717 3.22998 15.8922 3.41024C16.0126 3.5905 16.0769 3.80243 16.0769 4.01923C16.0769 4.30995 15.9614 4.58876 15.7559 4.79433C15.5503 4.9999 15.2715 5.11538 14.9808 5.11538ZM12.4231 9.5C12.4231 10.0781 12.2516 10.6433 11.9304 11.124C11.6093 11.6047 11.1527 11.9793 10.6186 12.2006C10.0845 12.4218 9.49676 12.4797 8.92974 12.3669C8.36271 12.2541 7.84187 11.9757 7.43307 11.5669C7.02427 11.1581 6.74588 10.6373 6.63309 10.0703C6.5203 9.50324 6.57819 8.91551 6.79943 8.38139C7.02067 7.84726 7.39533 7.39074 7.87603 7.06955C8.35672 6.74836 8.92187 6.57692 9.5 6.57692C10.2752 6.57692 11.0187 6.88489 11.5669 7.43307C12.1151 7.98126 12.4231 8.72475 12.4231 9.5Z"
+                            fill="currentColor" />
+                    </svg>
                 </a>
             </li>
             <li>
                 <a class="invisible" href="https://www.youtube.com/">
-                    <img src="./images/youtubelogofooter.jpg" alt="youtube logo" width="24px" height="24px">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.6698 9.82604L9.33021 8.73438C9.12604 8.63958 8.95833 8.74583 8.95833 8.97187V11.0281C8.95833 11.2542 9.12604 11.3604 9.33021 11.2656L11.6688 10.174C11.874 10.0781 11.874 9.92188 11.6698 9.82604ZM10 0C4.47708 0 0 4.47708 0 10C0 15.5229 4.47708 20 10 20C15.5229 20 20 15.5229 20 10C20 4.47708 15.5229 0 10 0ZM10 14.0625C4.88125 14.0625 4.79167 13.601 4.79167 10C4.79167 6.39896 4.88125 5.9375 10 5.9375C15.1187 5.9375 15.2083 6.39896 15.2083 10C15.2083 13.601 15.1187 14.0625 10 14.0625Z"
+                            fill="currentColor" />
+                    </svg>
                 </a>
             </li>
             <li>
                 <a class="invisible" href="https://www.facebook.com/">
-                    <img src="./images/facebooklogofooter.jpg" alt="facebook logo" width="24px" height="24px">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M20 10.0251C20 4.49123 15.52 0 10 0C4.48 0 0 4.49123 0 10.0251C0 14.8772 3.44 18.9173 8 19.8496V13.0326H6V10.0251H8V7.5188C8 5.58396 9.57 4.01003 11.5 4.01003H14V7.01754H12C11.45 7.01754 11 7.46867 11 8.02005V10.0251H14V13.0326H11V20C16.05 19.4987 20 15.2281 20 10.0251Z"
+                        fill="currentColor" />
+                </svg>
                 </a>
             </li>
         </nav>
+            </div>
         </section>
         <section>
+            <div class="container">
         <h2>No matter which yacht you choose, our experienced crew will ensure that your journey is smooth and enjoyable.</h2>
         <small>2023. Yacht Adventures</small>
         <a href="index.html"> Privacy Police</a>
+        <div class="container">
         </section>
         </footer>
 </body>
